@@ -22,12 +22,13 @@
   </head>
   <body>
     <!-- Train Scheduler-->
-    <div class="container">
+    <div class="container" id="whole">
       <div class="jumbotron">
         <h1 class="text-center">Dw Express</h1>
         <h3 class="text-center ride">
-          Create Great Memories On Your Ride with the Dw Express
+          Create Great Memories On Your Ride With Us
         </h3>
+        <h3 id="currenttime"></h3>
       </div>
       <!-- Show code for current train schedule-->
       <div class="row">
@@ -85,7 +86,7 @@
                 </div>
 
                 <!-- submit button-->
-                <button type="submit" class="btn btn-primary" id="addTrainBtn">
+                <button class="btn btn-primary" id="addTrainBtn">
                   Submit
                 </button>
               </form>
@@ -97,6 +98,6 @@
 
     <!-- jquery script goes here not at the top-->
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="./assets/Javascript/js.js"></script>
+    <script src="./assets/app.js"></script>
   </body>
 </html>

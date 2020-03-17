@@ -1,0 +1,59 @@
+
+body{
+    background-image: url("/assets/images/1920\ interior.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#whole{
+    background-color: rgba(128, 128, 128, 0.5);
+    color:white
+}
+h1 {
+    font-size: 150px;
+    font-style: italic;
+    justify-content: center;
+
+}
+.jumbotron {
+    background-color: darkslategrey;
+    color: black;
+    border: 5px navy solid;
+    font: 60px cursive;
+}
+
+.ride {
+    font-size: 37px;
+    color:black;
+}
+
+.panel-body {
+    border: 5px navy solid;
+}
+
+.current , .add {
+    background-color: darkslategrey;
+    color: black;
+    font-size: 25px;
+}
+
+#trainTable {
+    background-color: darkslategrey;    
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#trainNameInput , #destinationInput , #timeInput , #frequencyInput {
+    color: black;
+    font-size: 40px;
+}
+
+.form-group {
+    color: black;
+    font-size: 25px;
+}
+
+.btn {
+    background-color: navy;
+    font-size: 25px;
+}
