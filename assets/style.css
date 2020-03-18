@@ -1,6 +1,6 @@
 
 body{
-    background-image: url("/assets/images/1920\ interior.jpg");
+    background-image: url("/assets/images/1920\ interior.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -19,6 +19,7 @@ h1 {
     color: black;
     border: 5px navy solid;
     font: 60px cursive;
+    
 }
 
 .ride {
