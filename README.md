@@ -1,1 +1,1 @@
-# Train-Scheduler
+# Train-Scheduler - This program will be able to have the user input different train names and be able to see the running time of each train. In addtion the background will change randomly to differnt images. 
