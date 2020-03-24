@@ -82,7 +82,7 @@ function update(){
     // var imgurl='/assets/Images/1940 interior.jpg' 
     index++   
     if (index > imgArray.length) index = 0
-    var imgurl='/assets/Images/' + imgArray [index]    // imgArray[index]  /// increment index // verify if is > than lengt and the restat to 0
+    var imgurl='./assets/Images/' + imgArray [index]    // imgArray[index]  /// increment index // verify if is > than lengt and the restat to 0
     console.log(imgurl)
     $("body").css("background-image",  "url('" + imgurl + "')");
     // update the next train and minutes away 
